@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Contact</title>
+    <link rel="stylesheet" href="styles.css" />
+  </head>
+  <body>
+    <header>
+      <a href="index.html">Index Page</a>
+      <a href="tournement.html">Tournement</a>
+      <a href="contact.html">Contact Us</a>
+    </header>
+
+    <form action="formPost.html" method="get">
+      <div class="formfield">
+        <label for="phone">Cell:</label>
+        <input type="tel" name="phone" id="phone" />
+      </div>
+
+      <div class="formfield">
+        <label for="range">Range:</label>
+        <input type="range" name="range" id="range" min="0" max="30" />
+      </div>
+
+      <div class="formfield">
+        <label for="comments">Comments:</label>
+        <textarea name="comments" id="comments"></textarea>
+      </div>
+
+      <div class="formfield">
+        <label for="reason">Reason:</label>
+        <select name="reason" id="reason">
+          <option value="Grade Question">Grade Question</option>
+          <option value="Attendance Question">Attendance Question</option>
+        </select>
+      </div>
+
+      <div class="formfield">
+        <input type="submit" value="Send" />
+      </div>
+    </form>
+
+    <footer>
+      <p>Copyright OrangeSpaghetti &copy;</p>
+      <a href="index.html">Index Page</a>
+      <a href="tournement.html">Tournement</a>
+      <a href="contact.html">Contact Us</a>
+    </footer>
+  </body>
+</html>
